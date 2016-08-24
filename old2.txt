@@ -1,0 +1,3 @@
+My name is @client.name@
+
+I love @favorite.sport@
