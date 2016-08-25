@@ -13,7 +13,7 @@
     b. Call untokenize(file,cache)<br />
   2. Parameters:<br />
     a. prop_path = where you have you tokens properties<br />
-    b. cache = the dictionary object from above step<br />
+    b. cache = the dictionary object created from prop_path<br />
     c. file = file you want to untokenize<br />
 		      
 <br />
