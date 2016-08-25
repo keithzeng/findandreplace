@@ -1,15 +1,17 @@
 ##I. Use of batch file, _findandreplace.bat<br />
-  1. Usage ->call :untokenize %INPUT% %OUTPUT% %PROP%<br />
-  2. Parameters:
+  1. Usage:<br />
+    a. call :untokenize %INPUT% %OUTPUT% %PROP%<br />
+  2. Parameters:<br />
     a. input file that you want to update<br />
     b. output file name that you desired<br />
     c. tokens.properties with "=" as delimiter<br />
 <br />
 
 ##II. Use of VBScript file, findandreplace.vbs<br />
-  1. Usage -> Set cache = createKeyVal(prop_path)<br />
-              Call untokenize(file,cache)<br />
-  2. Parameters:
+  1. Usage:<br />
+    a. Set cache = createKeyVal(prop_path)<br />
+    b. Call untokenize(file,cache)<br />
+  2. Parameters:<br />
     a. prop_path = where you have you tokens properties<br />
     b. cache = the dictionary object from above step<br />
     c. file = file you want to untokenize<br />
